@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.gallery img {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    border-color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+
+.proposal-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 2px solid #ddd;
+}
+
+.proposal-box p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.proposal-box button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.proposal-box button:hover {
+    background-color: #555;
+}
